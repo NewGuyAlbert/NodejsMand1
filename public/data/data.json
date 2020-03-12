@@ -1,0 +1,135 @@
+{
+    "topics": {
+    
+        "basics":{
+            "title": "Basics",
+            "info1": "Declaring variables is done like this:",
+            "pic": "/pictures/basics_1.png",
+            "info2": "var declarations are globally scoped or function scoped while let and const are block scoped.",
+            "info3": "let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.",
+            "info4": "Printing variables to the console is done like this:",
+            "pic2": "/pictures/basics_2.png",
+            "info5": "The output is this:",
+            "pic3": "/pictures/basics_3.png",
+            "nextPage":"strings"
+        },
+        "strings":{
+            "title": "Strings",
+            "info1": "A string is a sequence of characters",
+            "info2": "Strings are declared using double quotes (\"\") or single quotes (''):",
+            "pic": "/pictures/strings_1.png",
+            "info3": "There are many methods used on strings",
+            "info4": "Among the most popular are these:",
+            "list":{
+                "el1": "charAt() -> Returns the character at the specified index (position)",
+                "el2": "startsWith() -> Checks whether a string begins with specified characters",
+                "el3": "includes() -> Checks whether a string contains the specified string/characters",
+                "el4": "replace() -> Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced",
+                "el5": "slice() -> Extracts a part of a string and returns a new string"
+            },
+            "nextPage": "objects"
+        },
+        "objects":{
+            "title": "Objects",
+            "info1": "Objects are a collection of key: value pairs and are declared like this:",
+            "pic1": "/pictures/objects_1.png",
+            "info2": "Accessing the value can be done in 2 ways:",
+            "list":{
+                "el1": "person.name;",
+                "el2": "person['name';]"
+            },
+            "info3": "You can remove or add new properties ( key: values pair ) using the following methods",
+            "info4": "To delete:",
+            "pic2": "/pictures/objects_2.png",
+            "info5": "And to add you select the object with the new key and assign it a value",
+            "pic3": "/pictures/objects_3.png",
+            "info6": "A method can also be stored as a property",
+            "pic4": "/pictures/objects_4.png",
+            "info7": "And using this:",
+            "pic5": "/pictures/objects_5.png",
+            "info8": "You save in the variable name the value 'John Doe'.",
+            "nextPage":"arrays"
+        },
+        "arrays":{
+            "title": "Arrays",
+            "info1": "Arrays are used to store multiple values in a single variable.",
+            "info2": "To go from this:",
+            "pic1": "/pictures/arrays_1.png",
+            "info3": "To this:",
+            "pic2":"/pictures/arrays_2.png",
+            "info4": "You access an array element by referring to the index number.",
+            "pic3":"/pictures/arrays_3.png",
+            "info5": "To add elemnts to an array the function push() is used:",
+            "pic4":"/pictures/arrays_4.png",
+            "info6": "Other methods used on arrays are:",
+            "list":{
+                "el1": "pop() method removes the last element from an array:",
+                "el2": "join() method also joins all array elements into a string.",
+                "el3": "toString() converts an array to a string of (comma separated) array values.",
+                "el4": "shift() method removes the first array element and 'shifts' all other elements to a lower index.",
+                "el5": "slice() method slices out a piece of an array into a new array."
+            },
+            "info7": "The length property returns the length of an array: 'objectName.length'",
+            "nextPage":"functions"
+        },
+        "functions":{
+            "title": "Functions",
+            "info1": "A function is a block of code designed to perform a particular task.",
+            "info2": "As example the output for the following code",
+            "pic1": "/pictures/functions_1.png",
+            "info3": "will be 8",
+            "info4": "You can assign a function to a variable:",
+            "pic2": "/pictures/functions_2.png",
+            "info5": "The result of aboutMe(me) will be volleyball",
+            "info6": "Arrow functions can be used as well instead of using the 'function' keyword",
+            "pic3": "/pictures/functions_3.png",
+            "info7": "Both regular and arrow functions work in a similar manner, but the most important difference is that arrow functions do not have their own this. keyword",
+            "pic4": "/pictures/functions_4.png",
+            "info8": "Output:",
+            "pic5": "/pictures/functions_5.png",
+            "nextPage":"express"
+        },
+        "express":{
+            "title": "Express",
+            "info": "Express is a web framework for node.",
+            "info2": "To install node create a package.json file and put express as a dependancy as follows:",
+            "pic1": "/pictures/express_1.png",
+            "info3": "Then in the terminal run 'npm install' and you will install all the dependancies added in the json file",
+            "info4": "You can install express more directly by going to the desired path in the terminal and running npm install express",
+            "info5": "Inporting express in the javascript file is done like this:",
+            "pic2": "/pictures/express_2.png",
+            "info6": "To run your application at a specific port the method listen() is used:",
+            "pic3": "/pictures/express_3.png",
+            "nextPage":"nodemon"
+        },
+        "nodemon":{
+            "title": "Nodemon",
+            "info1": "Nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.",
+            "info2": "To install nodemon you write npm install nodemon in the terminal",
+            "info3": "To run nodemon you type 'nodemon application.js' in the terminal",
+            "pic1": "/pictures/nodemon_1.png",
+            "nextPage":"faker"
+        },
+        "faker":{
+            "info": "faker",
+            "pic": "Work in progress",
+            "nextPage":"jquery"
+        },
+        "jquery":{
+            "info": "jquery",
+            "pic": "Work in progress",
+            "nextPage":"restApi"
+        },
+        "restApi":{
+            "info": "restApi",
+            "pic": "Work in progress",
+            "nextPage":"staticFiles"
+        },
+        "staticFiles":{
+            "info": "staticFiles",
+            "pic": "Work in progress",
+            "nextPage":""
+        }
+
+    }
+}
